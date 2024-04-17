@@ -1,0 +1,53 @@
+body {
+    font-family: 'impact', cursive, sans-serif;
+    text-align: center;
+    color: #23b113;
+    background-color:#2347ff;
+    background-image: url("https://plus.unsplash.com/premium_photo-1669731124331-a59daa3d90ef?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-position: 45% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .game-container {
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  #flamingText {
+    color: #E67E22;
+    background-color: darkgreen;
+    text-shadow: #FFF 10 -1px 1px, #ff0 0 -4px 10px, #ff8000 1 -10px 20px, red 0 -18px 40px;
+    border: 10.5px double brown;
+  }
+  
+  button {
+    margin: 10px;
+    color: yellow;
+    font-size: 20px;
+    line-height: 1;
+    padding: 12px 24px;
+    border-radius: 10px;
+    background: teal;
+    border: 2px double rgb(128, 190, 264);
+  }
+  
+  button:hover {
+    background-image: linear-gradient(to right, rgb(135, 99, 33) 0%, rgb(168, 92, 68) 50%, rgb(158, 143, 106) 100%);
+  }
+  
+  button:active {
+    background: orange;
+  }
+  
+  #game-result {
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+  
